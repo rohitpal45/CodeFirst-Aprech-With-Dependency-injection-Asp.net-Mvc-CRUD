@@ -16,7 +16,7 @@ namespace MenuMasterInterface.Controllers
         }
         public ActionResult Index()
         {
-            return View(_iMenu.GetAllMenu());
+            return View();
         }
 
         public ActionResult About()
